@@ -1,0 +1,25 @@
+h1 {
+  color: blue;
+  font-style: italic;
+  /* opacity: 70%;
+  display: none; */
+  visibility: hidden;
+}
+span {
+  visibility: visible;
+}
+p {
+  color: blueviolet;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h2 {
+  opacity: 10%;
+}
+
+body {
+  /* background-image: url(./img/canh.jpg); */
+}
