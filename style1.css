@@ -1,0 +1,20 @@
+#line_1 {
+  color: red;
+}
+.demo {
+  color: blue;
+}
+
+.demo2 {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  user-select: none;
+}
+
+p.demo {
+    font-size: 1cap;
+}
+
+[href]:hover {
+  color: red;
+}

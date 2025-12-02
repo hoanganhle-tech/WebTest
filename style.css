@@ -17,9 +17,55 @@ p {
 }
 
 h2 {
-  opacity: 10%;
+  opacity: 40%;
+  color: red;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
   /* background-image: url(./img/canh.jpg); */
+}
+#line_1 {
+  color: red;
+}
+
+.HocSpace {
+  color: green
+}
+.HocSpace2 {
+
+}
+
+div p {
+  color: red;
+}
+
+.HocSpace p {
+  font-size: 30px;
+}
+
+p,h1,.demo,#line_1 {
+  user-select: none;
+}
+
+div > p {
+  /* Chọn những thẻ p là con trực tiếp của div */
+  color:aquamarine;
+}
+
+div + p { 
+  /* chon the p gần nhất đằng sau thẻ div */
+  color: blue;
+}
+
+div ~ p {
+  /* Chọn tất cả thẻ p nằm sau div */
+  color: chartreuse;
+}
+
+[href] {
+  color: red;
 }
